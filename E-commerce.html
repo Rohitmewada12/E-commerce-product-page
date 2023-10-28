@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="E-commerce.css">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Trends</h1>
+            </div>
+            <ul>
+                <li>
+                    <a id="home" onclick="homes()">Home</a>
+                    <a id="shop" onclick="shops()">Shops</a>
+                    <a id="blog" onclick="blogs()">Blog</a>
+                    <a id="about" onclick="abouts()">About</a>
+                    <a id="contact" onclick="contacts()">Contact</a>
+                    <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+
+                </li>
+            </ul>
+        </nav>
+
+        <!-- mainpage -->
+
+        <div class="main">
+            <div class="mainText">
+                <h2>Trends</h2>
+                <h1 class="top">Super Value Deals</h1>
+                <h1>On All Products</h1>
+                <button>Explore</button>
+            </div>
+            <img src="https://images.unsplash.com/photo-1456885284447-7dd4bb8720bf?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2lybCUyMGNsb3RoZXN8ZW58MHx8MHx8fDA%3D"
+                alt="image">
+        </div>
+
+        <!-- cards -->
+
+        <div class="trend">
+            <div class="head">
+                <h1>Trends <span>Men's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmReWl4DbmfhhvZ0Gk18wcJaRgNQhfte7TRklGv7Ty2YMT5HIv"
+                        alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cutton Trending Shirt's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcReZGhhR36ecJGfm0z_IgZwmukRX6SVfBsLXqW5K53CEeuV5GBO"
+                        alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cutton Trending Shirt's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="crd">
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTwz_G_6JlRLGXXFAXzSgnCMId7Ej4MLIXcMJDwmV3NHu4yL7NR"
+                        alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cutton Trending Shirt's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Women Card -->
+
+        <div class="trend" id="trendSec">
+            <div class="head">
+                <h1>Trends <span>Women's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTZR4N6vk8Sxh2YI2OZcxVRsSG0KTnO2JDn3QewFvmm8wxD2WiK"
+                        alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl Top's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwCplCDYfdKikxMOnmFIV3FzzRYn5qG4ERH9V9Yg7Lm4w2hJfy"
+                        alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl Top's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTQqu1Ut7qCzgmQx8a3VFZqYYk75CFNWZoQzwpIpOXhpRit4hTn"
+                        alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl Top's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- about us -->
+
+        <div class="about">
+
+            <div class="aboutus">
+                <h1>#KnowUs</h1>
+                <p></p>
+            </div>
+
+            <div class="me">
+                <img src="lap.png" alt="">
+                <div class="aboutText">
+                    <h1>Who we are ?</h1>
+                    <p>we are the business man working on online shop</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact -->
+
+        <div class="contact">
+
+            <div class="contactus">
+                <h1>#Let's Connect</h1>
+                <p></p>
+            </div>
+
+            <div class="contactMe">
+                <div class="contactText">
+                    <h1>Visit Our Office or Contact <br>
+                        Us Today</h1>
+                    <p>Address : Bhopal saket nagar </p>
+                    <p>Contact : rohitmewada902@gmail.com</p>
+                    <p>Number : 7610639984</p>
+                </div>
+                <img src="map.PNG" alt="">
+            </div>
+
+            <div class="form">
+                <h1>Connect with Us. Fill Form</h1>
+                <input type="text" placeholder="Enter Email"> <br>
+                <input type="text" placeholder="Enter Email"> <br>
+                <input type="text" placeholder="Enter Email"> <br>
+                <input type="text" placeholder="Enter Email"> <br>
+                <input type="text" placeholder="Enter Email"> <br>
+                <button>Submit</button>
+
+            </div>
+        </div>
+        <!-- cart -->
+
+        <div class="cart">
+            <img id="newImg" src="" alt="">
+            <div class="cartText">
+                <h1>Trends Offer : Trending Shop <br>
+                    Now</h1>
+                <h2>Special Price</h2>
+                <h2>$11</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <div class="btn">
+                    <button>Buy Now</button>
+                    <button onclick="addCart()">Add to Cart</button>
+                </div>
+                <button class="back">Back</button>
+
+
+
+            </div>
+        </div>
+
+        <!-- blogs -->
+        <div class="trends">
+            <div class="head">
+                <h1>Trends <span>Men's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="blog">
+                    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT7bD6WgTOWu8kdhBIh6RBKUeVKpjZGT3Jb5brqnYzFXNXemN_0"
+                        alt="">
+                    <div class="blogText">
+                        <h2>Trending Girl Cloths</h2>
+                        <p>This is best girl cloths and quality product </p>
+                        <a href="https://influencermarketinghub.com/best-fashion-blogs/">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog">
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMoQQxfnL6Llbf4x70Xx_mUiGWFHopk8iHmBte1gPU00W3aDmQ"
+                        alt="">
+                    <div class="blogText">
+                        <h2>Trending Boys Cloths</h2>
+                        <p>Denim cloths of boy favs</p>
+                        <a href="https://www.apetogentleman.com/">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Letter -->
+
+        <div class="letter">
+            <div class="letterText">
+                <h1>Sign Up for NewsLetter</h1>
+                <p></p>
+            </div>
+            <div class="inp">
+                <input type="text" placeholder="Enter Email">
+                <button>Sign Up</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <div class="footer">
+            <div class="footerText">
+                <h2>Trends</h2>
+                <p>Service </p>
+                <p>Customer</p>
+                <p>Satisfaction</p>
+                <p></p>
+
+            </div>
+            <div class="footerText">
+                <h2>About US</h2>
+                <p>Adrress : Mumbai, India <br>
+                    </p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Satisfation</p>
+
+            </div>
+            <div class="footerText">
+                <h2>Contact</h2>
+                <p>998900655</p>
+                <p>Customer</p>
+                <p>Comming up</p>
+                <p>New Arrival</p>
+
+            </div>
+            <div class="footerText">
+                <h2>Trending</h2>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Shops</p>
+                <p></p>
+
+            </div>
+        </div>
+    </div>
+    <script src="E-commerce.js"></script>
+</body>
+
+</html>
